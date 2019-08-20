@@ -34,7 +34,7 @@
       "url": "https://vgbr-dev.blogspot.com"
     }
   ],
-  "main": "index.js",
+  "main": "public/electron.js",
   "directories": {
     "lib": "lib",
     "doc": "doc",
