@@ -136,5 +136,45 @@
       "not dead",
       "not op_mini all"
     ]
+  },
+  "build": {
+    "appId": "com.electron.reactronboilerplate",
+    "productName": "reactron-boilerplate",
+    "copyright": "Copyright © year 2019 ${author}",
+    "artifactName": "${name}-${version}-${platform}.${ext}",
+    "asar": false,
+    "directories": {
+      "output": "release",
+      "buildResources": "assets"
+    },
+    "files": [
+      "node_modules/**/*",
+      "system/**/*",
+      "yarn.lock",
+      "README.md",
+      "package.json",
+      "package-lock.json",
+      "assets/**/*",
+      "package.json"
+    ],
+    "publish": [
+      {
+        "provider": "github",
+        "repo": "reactron-boilerplate",
+        "owner": "IamBeltran",
+        "private": false
+      }
+    ],
+    "win": {
+      "icon": "assets/icons/256x256.png",
+      "target": [
+        "nsis"
+      ]
+    },
+    "nsis": {
+      "oneClick": true,
+      "perMachine": true
+    },
+    "electronVersion": "5.0.8"
   }
 }
