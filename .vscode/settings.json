@@ -1,0 +1,42 @@
+{
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    /**/
+    ".babelrc": true,
+    ".editorconfig": true,
+    ".eslintrc": true,
+    ".eslintignore": true,
+    ".gitignore": true,
+    ".gitattributes": true,
+    ".huskyrc": true,
+    ".lintstagedrc": true,
+    ".prettierrc": true,
+    ".prettierrc.json": true,
+    ".stylelintrc": true,
+    "LICENSE": true,
+    "COMMIT_EDITMSG": true,
+    "gulpfile.js": true,
+    "package-lock.json": true,
+    "node_modules": true,
+    "yarn.lock": true,
+    "README.md": true,
+    /**/
+  },
+  "search.exclude": {
+    "**/node_modules": true,
+    "**/bower_components": true,
+    "**/bazel-out": true,
+    "**/dist": true
+  },
+  "[markdown]": {
+    "editor.renderWhitespace": "all",
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.parameterHints.enabled": false,
+    "editor.quickSuggestions": false,
+    "editor.snippetSuggestions": "none"
+  }
+}
