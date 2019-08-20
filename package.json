@@ -45,7 +45,7 @@
     "prerelease": "yarn build",
     "dist": "electron-builder --win --publish never",
     "release": "env-cmd electron-builder --publish always --win",
-    "postinstall": "install-app-deps",
+    "postinstall": "electron-builder install-app-deps",
     "test:mocha": "gulp test:simple",
     "quick:test": "cross-env NODE_ENV=test nodemon ./quick.test.js"
   },
