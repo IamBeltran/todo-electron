@@ -1,6 +1,6 @@
 {
   "name": "reactron-boilerplate",
-  "version": "0.1.0-beta.5",
+  "version": "1.0.0",
   "private": false,
   "description": "Repository with a boilerplate to develop applications with React and Electron",
   "keywords": [
