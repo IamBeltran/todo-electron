@@ -1,0 +1,57 @@
+{
+  "name": "reactron-boilerplate",
+  "version": "0.0.0",
+  "private": false,
+  "description": "Repository with a boilerplate to develop applications with React and Electron",
+  "keywords": [
+    "APP",
+    "BOILERPLATE",
+    "BUILD",
+    "DEVELOPMENT",
+    "ELECTRON",
+    "JAVASCRIPT",
+    "REACT",
+    "TESTING"
+  ],
+  "homepage": "https://github.com/IamBeltran/reactron-boilerplate#readme",
+  "bugs": {
+    "url": "https://github.com/IamBeltran/reactron-boilerplate/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IamBeltran/reactron-boilerplate.git"
+  },
+  "license": "MIT",
+  "author": {
+    "name": "Victor Giovanni Beltrán Rodríguez",
+    "email": "beltran-victor@outlook.com",
+    "url": "https://vgbr-dev.blogspot.com"
+  },
+  "contributors": [
+    {
+      "name": "Victor Giovanni Beltrán Rodriguez",
+      "email": "beltran-victor@outlook.com",
+      "url": "https://vgbr-dev.blogspot.com"
+    }
+  ],
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "doc": "doc",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "engines": {},
+  "engineStrict": false,
+  "os": [
+    "darwin",
+    "linux",
+    "win32"
+  ],
+  "cpu": [],
+  "analyze": true
+}
