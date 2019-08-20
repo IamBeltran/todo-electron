@@ -60,5 +60,10 @@
     "win32"
   ],
   "cpu": [],
-  "analyze": true
+  "analyze": true,
+  "nodemonConfig": {
+    "ignore": [
+      "*.json"
+    ]
+  }
 }
