@@ -45,6 +45,12 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "dev": "cross-env BROWSER=none TASK=electrondev node ./tools/concurrently/index.js",
+    "predist": "yarn build",
+    "prerelease": "yarn build",
+    "dist": "electron-builder --win --publish never",
+    "release": "env-cmd electron-builder --publish always --win",
+    "postinstall": "install-app-deps",
     "test:mocha": "gulp test:simple",
     "quick:test": "cross-env NODE_ENV=test nodemon ./quick.test.js"
   },
