@@ -45,7 +45,15 @@
     "test:mocha": "gulp test:simple",
     "quick:test": "cross-env NODE_ENV=test nodemon ./quick.test.js"
   },
-  "dependencies": {},
+  "dependencies": {
+    "history": "^4.9.0",
+    "prop-types": "^15.7.2",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-router": "^5.0.1",
+    "react-router-dom": "^5.0.1",
+    "react-scripts": "^3.1.1"
+  },
   "devDependencies": {
     "@babel/core": "^7.5.5",
     "@babel/preset-env": "^7.5.5",
