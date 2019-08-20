@@ -49,7 +49,14 @@
     "quick:test": "cross-env NODE_ENV=test nodemon ./quick.test.js"
   },
   "dependencies": {
+    "electron-devtools-installer": "^2.2.4",
+    "electron-is-dev": "^1.1.0",
+    "electron-log": "^3.0.7",
+    "electron-reload": "^1.5.0",
+    "electron-store": "^4.0.0",
+    "electron-updater": "^4.1.2",
     "history": "^4.9.0",
+    "node-notifier": "^5.4.3",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
