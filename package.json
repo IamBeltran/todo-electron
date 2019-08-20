@@ -142,7 +142,7 @@
     "productName": "reactron-boilerplate",
     "copyright": "Copyright © year 2019 ${author}",
     "artifactName": "${name}-${version}-${platform}.${ext}",
-    "asar": false,
+    "asar": true,
     "directories": {
       "output": "release",
       "buildResources": "assets"
