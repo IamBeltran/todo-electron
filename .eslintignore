@@ -21,3 +21,5 @@ quick.*
 test.*.js
 
 reports/
+
+src/serviceWorker.js
