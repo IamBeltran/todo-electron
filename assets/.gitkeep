@@ -1,0 +1,76 @@
+NOTE: About this directorie
+
+▶ Icons
+
+Recommended tools: AppIcon Generator, MakeAppIcon, iConvert Icons.
+
+▶ macOS
+
+Files
+
+- Optional icon.icns (macOS app icon) or icon.png. Icon size should be at least 512x512.
+- Optional background.png (macOS DMG background).
+- Optional background@2x.png (macOS DMG Retina background).
+
+Need  to  be  placed  in  the buildResources directory (defaults to build). All files are
+optional  —  but  it  is  important  to provide icon.icns (or icon.png), as otherwise the
+default Electron icon will be used.
+
+▶ Windows (NSIS)
+
+- Optional icon.ico (Windows app icon) or icon.png. Icon size should be at least 256x256.
+
+Needs  to be  placed in the buildResources directory (defaults to build). It is important
+to  provide  icon.ico (or icon.png), as otherwise the default Electron icon will be used.
+
+▶ Linux
+
+Linux  icon  set  will be generated  automatically based on the macOS icns file or common
+icon.png.
+
+Or you can put them into the build/icons directory if you want to specify them  yourself.
+The  filename  must  contain the size (e.g. 256x256.png) of the icon). Recommended sizes:
+16, 32, 48, 64, 128, 256 (or just 512).
+
+▶ AppX
+
+AppX assets need to be placed in the appx folder in the build directory.
+
+The assets should follow these naming conventions:
+
+- Logo: StoreLogo.png
+- Square150x150Logo: Square150x150Logo.png
+- Square44x44Logo: Square44x44Logo.png
+- Wide310x150Logo: Wide310x150Logo.png
+- Optional BadgeLogo: BadgeLogo.png
+- Optional Square310x310Logo: LargeTile.png
+- Optional Square71x71Logo: SmallTile.png
+- Optional SplashScreen: SplashScreen.png
+
+All  official  AppX  asset  types  are  supported  by the build process. These assets can
+include scaled assets by using target size and scale in the name. See Guidelines for tile
+and icon assets for more information.
+
+Default   assets   will   be   used   for  Logo,  Square150x150Logo,  Square44x44Logo and
+Wide310x150Logo  if  not provided.  For  assets marked Optional, these assets will not be
+listed in the manifest file if not provided.
+
+
+▶ Content
+
+	assets
+		├── icons
+		│		├── 1024x1024.png
+		│		├── 512x512.png
+		│		├── 256x256.png
+		│		├── 128x128.png
+		│		├── 96x96.png
+		│		├── 64x64.png
+		│		├── 48x48.png
+		│		├── 32x32.png
+		│		├── 16x16.png
+		│		└── 24x24.png
+		├── future_assets
+		└─┬ future_assets
+			└─┬ future_assets
+				└── future_assets
