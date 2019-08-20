@@ -43,6 +43,7 @@
   "scripts": {
     "precommit": "lint-staged",
     "test": "echo \"Error: no test specified\" && exit 1",
+    "test:mocha": "gulp test:simple",
     "quick:test": "cross-env NODE_ENV=test nodemon ./quick.test.js"
   },
   "dependencies": {},
