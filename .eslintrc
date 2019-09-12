@@ -4,6 +4,10 @@
     "prettier",
     "prettier/react"
   ],
+  "plugins": [
+    "react",
+    "prettier"
+  ],
   "parser": "babel-eslint",
   "parserOptions": {
       "ecmaFeatures": {
@@ -30,7 +34,15 @@
     "no-console": ["error", { "allow": ["warn", "error"] }],
     "react/jsx-filename-extension": [0, { "extensions": [".js", ".jsx"] }],
     "import/no-dynamic-require": 0,
-    "import/no-extraneous-dependencies": ["error", {"devDependencies": ["tools/**/*.js", "test/**/*.js"]}],
+    "import/no-extraneous-dependencies": [
+      "error", {
+        "devDependencies": [
+          "tools/**/*.js",
+          "test/**/*.js",
+          "gulpfile.js"
+          ]
+        }
+    ],
     "no-param-reassign": ["error", { "props": false }],
     "prettier/prettier": [
       "error",
@@ -40,9 +52,5 @@
         "trailingComma": "all"
       }
     ]
-  },
-  "plugins": [
-    "react",
-    "prettier"
-  ]
+  }
 }
