@@ -1,5 +1,6 @@
 {
   "*.{js,jsx}": [
+    "pretty-quick --staged",
     "eslint",
     "git add"
   ],
