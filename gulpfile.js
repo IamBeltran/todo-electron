@@ -1,5 +1,3 @@
-/* eslint-disable global-require */
-/* eslint-disable import/no-extraneous-dependencies */
 //  ┌───────────────────────────────────────────────────────────────────────────────────┐
 //  │ REQUIRE THIRDPARTY-MODULES DEPENDENCY.                                            │
 //  └───────────────────────────────────────────────────────────────────────────────────┘
@@ -33,7 +31,7 @@ const cache = require('gulp-cached');
  * @returns       {function} A gulp task
  */
 function loadTask(fileName, taskName) {
-  const taskModule = require(`./tools/gulp-tasks/${fileName}`);
+  const taskModule = require(`./tools/gulp-tasks/${fileName}`); // eslint-disable-line global-require
   const task = taskName ? taskModule[taskName] : taskModule;
   return task(gulp);
 }
