@@ -52,6 +52,7 @@ if (isDev) {
 // be closed automatically when the JavaScript object is garbage collected.
 let mainWindow;
 
+// » html file for mainWindow
 const startUrl = isDev
   ? 'http://localhost:3000'
   : url.format({
@@ -64,6 +65,8 @@ const startUrl = isDev
 //  │ DECLARATION OF AUXILIARY FUNCTIONS.                                               │
 //  └───────────────────────────────────────────────────────────────────────────────────┘
 function createWindow() {
+  // SECTION: mainWindow
+  // » Create mainWindow
   mainWindow = new BrowserWindow({
     width: 800,
     height: 600,
@@ -106,6 +109,7 @@ function createWindow() {
   mainWindow.on('closed', () => {
     mainWindow = null;
   });
+  // !SECTION
 }
 
 //  ┌───────────────────────────────────────────────────────────────────────────────────┐
@@ -136,4 +140,5 @@ ipcMain.on('send-notification', (event, notification) => {
     message: notification.message,
   });
 });
+
 console.log(app.getPath('userData'));
