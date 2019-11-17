@@ -51,6 +51,8 @@
         "printWidth": 100,
         "trailingComma": "all"
       }
-    ]
+    ],
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "warn"
   }
 }
