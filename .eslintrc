@@ -6,7 +6,8 @@
   ],
   "plugins": [
     "react",
-    "prettier"
+    "prettier",
+    "react-hooks"
   ],
   "parser": "babel-eslint",
   "parserOptions": {
