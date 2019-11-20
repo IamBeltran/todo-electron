@@ -42,10 +42,10 @@ if (isDev) {
   });
   process.env.ELECTRON_DISABLE_SECURITY_WARNINGS = true;
 }
+
 // !SECTION
 
 // SECTION: WORSPACE FOR PRODUCTION
-
 // !SECTION
 
 // Keep a global reference of the window object, if you don't, the window will
