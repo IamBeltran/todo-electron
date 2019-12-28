@@ -1,5 +1,5 @@
 {
-  "name": "reactron-boilerplate",
+  "name": "todo-electron",
   "version": "1.0.0",
   "private": false,
   "description": "Repository with a boilerplate to develop applications with React and Electron",
@@ -15,11 +15,11 @@
   ],
   "homepage": ".",
   "bugs": {
-    "url": "https://github.com/IamBeltran/reactron-boilerplate/issues"
+    "url": "https://github.com/IamBeltran/todo-electron/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/IamBeltran/reactron-boilerplate.git"
+    "url": "git+https://github.com/IamBeltran/todo-electron.git"
   },
   "license": "MIT",
   "author": {
@@ -140,8 +140,8 @@
     ]
   },
   "build": {
-    "appId": "com.electron.reactronboilerplate",
-    "productName": "reactron-boilerplate",
+    "appId": "com.electron.todoelectron",
+    "productName": "todo-electron",
     "copyright": "Copyright © year 2019 ${author}",
     "artifactName": "${name}-${version}-${platform}.${ext}",
     "asar": true,
@@ -162,7 +162,7 @@
     "publish": [
       {
         "provider": "github",
-        "repo": "reactron-boilerplate",
+        "repo": "todo-electron",
         "owner": "IamBeltran",
         "private": false
       }
